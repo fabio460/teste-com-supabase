@@ -26,3 +26,9 @@ model Usuario {
   email   String   @unique
   nome    String?
 }
+
+model Endereco {
+  id String  @id @default(auto()) @map("_id") @db.ObjectId
+  nome String
+  numero String 
+}
