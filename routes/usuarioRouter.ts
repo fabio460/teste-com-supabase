@@ -3,6 +3,6 @@ import { listar } from "../controllers/usuarioController";
 
 const usuarioRouter = Router()
 
-usuarioRouter.get("/listar", listar)
+usuarioRouter.get("", listar)
 
 export default usuarioRouter
